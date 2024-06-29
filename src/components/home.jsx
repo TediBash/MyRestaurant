@@ -8,15 +8,13 @@ function Home(){
     return(
         <div>
             <NavHeader />
-            <section className='home-section'>
+            <section className='home-buttons home-section'>
                 <div className="center">
                     <h1 className="alex-brush">Welcome</h1>
                     <h2>the rosa</h2>
                     <span id="asterisk">*</span>
                     <p>ready to be opened</p>
                 </div>
-            </section>
-            <section className='home-buttons'>
                 <span className='home-text'>Men&uacute;</span>
                 <button onClick={() => navigate('/breakfast')}>Colazione</button>
                 <button onClick={() => navigate('/lunch')}>Pranzo</button>

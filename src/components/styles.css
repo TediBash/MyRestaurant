@@ -42,7 +42,6 @@ section{
 .nav-header .logo {
   color:lightgray;
   text-transform:uppercase;
-  border-bottom:solid 2px lightgray;
   font-family: 'Overpass Mono', monospace !important;
 }
 
@@ -70,23 +69,18 @@ section{
   cursor: pointer;
   font-family: 'Overpass Mono', monospace !important;
   font-size: 1.2rem;
+  font-weight: 900;
 }
 
 .home-section {
   min-height:100vh;
   background:linear-gradient(to bottom,rgba(rgb(0,0,0),.8),transparent);
-  background-image: url('http://zigis.com.au/wp-content/uploads/2014/05/holiday2013_front.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  background-attachment: fixed;
   display:flex;
   flex-direction:column;
 }
 
 .home-section .center {
   line-height:0;
-  margin:auto;
   text-align:center;
   color:white;
 }
@@ -97,17 +91,6 @@ section{
   font-size:30px;
   display:flex;
   justify-content:center;
-}
-
-.home-section .center #asterisk &:before, &:after{
-  content:"";
-  display:inline-block;
-  position:relative;
-  vertical-align:middle;
-  height:1px;
-  width: 0%;
-  opacity: 0;
-  background: white;
 }
 
 .home-section .center #asterisk &:before {
