@@ -7,7 +7,6 @@ function Home(){
 
     return(
         <div className='container'>
-            <NavHeader />
             <div className='home-buttons home-section'>
                 <div className="center">
                     <h1 className="alex-brush">Welcome</h1>

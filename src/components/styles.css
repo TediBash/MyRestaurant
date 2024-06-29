@@ -125,7 +125,7 @@ section{
   font-family: 'Alex Brush', cursive !important;
   color: rgb(190, 128, 64);
   font-size:80px;
-  margin-bottom:34px;
+  margin: 2rem 0;
 }
 
 .home-section .center h2 {
