@@ -18,9 +18,9 @@ function Home(){
             </section>
             <section className='home-buttons'>
                 <span className='home-text'>Men&uacute;</span>
-                <button onClick={() => navigate('/breakfast')}>Colazione</button>
-                <button onClick={() => navigate('/lunch')}>Pranzo</button>
-                <button onClick={() => navigate('/dinner')}>Cena</button>
+                <button onClick={() => navigate('/MyRestaurant/breakfast')}>Colazione</button>
+                <button onClick={() => navigate('/MyRestaurant/lunch')}>Pranzo</button>
+                <button onClick={() => navigate('/MyRestaurant/dinner')}>Cena</button>
             </section>
         </div>
         

@@ -4,7 +4,7 @@ function NavHeader(){
     return (
         <div className="nav-header">
             <div className='profile'>
-                <h2><Link to='/' className='logo'>Home</Link></h2>
+                <h2><Link to='/MyRestaurant/' className='logo'>Home</Link></h2>
             </div>
         </div>
     )
