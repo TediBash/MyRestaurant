@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush|Overpass+Mono:600,700');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
-$OverpassMonoFont: 'Overpass Mono', monospace;
-$PTSansFont: 'PT Sans', sans-serif;
-$AlexBrushFont: 'Alex Brush', cursive;
-$lightbrown: rgb(190, 128, 64);
-$white: rgb(255,255,255);
-$black: rgb(0,0,0);
-$darkgray: rgb(20,20,20);
-$lightgray: rgb(35,35,35);
-
 body {
   overflow-x: hidden;
   background-color: #080d14 !important;
@@ -25,6 +16,11 @@ button {
   background:0;
   cursor:pointer;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 /*
   HEADER
 */
@@ -33,7 +29,6 @@ section{
 }
 
 .nav-header{
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     background: transparent;
     position: absolute;
     top: 0;
@@ -42,13 +37,13 @@ section{
     width: 100%;
     color: white;
     text-align: left;
+}
 
-    .logo {
-        color:lightgray;
-        text-transform:uppercase;
-        border-bottom:solid 2px lightgray;
-        font-family: $OverpassMonoFont !important;
-    }
+.nav-header .logo {
+  color:lightgray;
+  text-transform:uppercase;
+  border-bottom:solid 2px lightgray;
+  font-family: 'Overpass Mono', monospace !important;
 }
 
 .home-buttons{
@@ -58,82 +53,90 @@ section{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
 
-    button{
-        width: 250px;
-        height: 90px;
-        border-radius: 35px;
-        background-color: $lightbrown;
-        border: none;
-        cursor: pointer;
-        font-family: $OverpassMonoFont !important;
-        font-size: 1.2rem;
-    }
+.home-buttons .home-text{
+  font-family: 'Alex Brush', cursive;
+  font-size: 3rem;
+  color: rgb(190, 128, 64);
+}
 
-    .home-text{
-        font-family: $AlexBrushFont;
-        font-size: 3rem;
-        color: rgb(190, 128, 64);
-    }
+.home-buttons button{
+  width: 250px;
+  height: 90px;
+  border-radius: 35px;
+  background-color: rgb(190, 128, 64);
+  border: none;
+  cursor: pointer;
+  font-family: 'Overpass Mono', monospace !important;
+  font-size: 1.2rem;
 }
 
 .home-section {
   min-height:100vh;
-  background:linear-gradient(to bottom,rgba($black,.8),transparent),
-    url('http://zigis.com.au/wp-content/uploads/2014/05/holiday2013_front.jpg')no-repeat center center;
+  background:linear-gradient(to bottom,rgba(rgb(0,0,0),.8),transparent);
+  background-image: url('http://zigis.com.au/wp-content/uploads/2014/05/holiday2013_front.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
   background-size:cover;
   background-attachment: fixed;
   display:flex;
   flex-direction:column;
+}
 
-  .center {
-    line-height:0;
-    margin:auto;
-    text-align:center;
-    color:$white;
-    h1 {
-      font-family: $AlexBrushFont !important;
-      color:$lightbrown;
-      font-size:80px;
-      margin-bottom:34px;
-    }
-    h2 {
-      text-transform:uppercase;
-      letter-spacing:5px;
-      font-size:28px;
-    }
-    #asterisk {
-      color:$lightbrown;
-      line-height:0.5;
-      font-size:30px;
-      display:flex;
-      justify-content:center;
-      &:before,&:after {
-        content:"";
-        display:inline-block;
-        position:relative;
-        vertical-align:middle;
-        height:1px;
-        // width:40%;
-        width: 0%;
-        opacity: 0;
-        background:$white;
-      }
-      &:before {
-        margin-right:10px;
-      }
-      &:after {
-        margin-left:10px;
-      }
-    }
-    p {
-      text-transform:uppercase;
-      margin-top:5px;
-      font-size:14px;
-      font-weight:bold;
-      letter-spacing:3px;
-    }
-  }
+.home-section .center {
+  line-height:0;
+  margin:auto;
+  text-align:center;
+  color:white;
+}
+
+.home-section .center #asterisk {
+  color:rgb(190, 128, 64);
+  line-height:0.5;
+  font-size:30px;
+  display:flex;
+  justify-content:center;
+}
+
+.home-section .center #asterisk &:before, &:after{
+  content:"";
+  display:inline-block;
+  position:relative;
+  vertical-align:middle;
+  height:1px;
+  width: 0%;
+  opacity: 0;
+  background: white;
+}
+
+.home-section .center #asterisk &:before {
+  margin-right:10px;
+}
+
+.home-section .center #asterisk &:after {
+  margin-left:10px;
+}
+
+.home-section .center p {
+  text-transform:uppercase;
+  margin-top:5px;
+  font-size:14px;
+  font-weight:bold;
+  letter-spacing:3px;
+}
+
+.home-section .center h1 {
+  font-family: 'Alex Brush', cursive !important;
+  color: rgb(190, 128, 64);
+  font-size:80px;
+  margin-bottom:34px;
+}
+
+.home-section .center h2 {
+  text-transform:uppercase;
+  letter-spacing:5px;
+  font-size:28px;
 }
 
 /*
@@ -141,16 +144,14 @@ section{
 */
 @media screen and (max-width: 425px) {
   .home-section {
-    background-attachment: scroll;
+    /*background-attachment: scroll;*/
   }
 }
 @media (min-width:768px) {
-  footer {
-    .restaurant-info {
+  footer .restaurant-info {
       flex-direction:row;
       justify-content:space-around;
       align-items:flex-start;
-    }
   }
 }
 @media(min-width:769px) {
@@ -161,22 +162,24 @@ section{
   .add-flex {
     flex-direction:row;
     align-items:center;
-    div:first-child {
-      flex:1;
-      padding:0 50px;
-    }
-    div:last-child {
-      min-width:400px;
-      margin:50px;
-    }
   }
-  .menu {
-    &-images {
+
+  .add-flex div:first-child {
+    flex:1;
+    padding:0 50px;
+  }
+
+  .add-flex div:last-child {
+    min-width:400px;
+    margin:50px;
+  }
+
+  .menu &-images {
+    flex:1;
+  }
+    
+  .menu  div:last-child {
       flex:1;
-    }
-    div:last-child {
-      flex:1;
-    }
   }
   
 }
@@ -261,9 +264,9 @@ section{
     transform: rotate(0);
     opacity: 0;
   }
-  // 50% {
-  //   opacity: 1;
-  // }
+  50% {
+    opacity: 0.5;
+  }
   100% {
     transform: rotate(360deg);
     opacity: 1;

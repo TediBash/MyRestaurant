@@ -1,4 +1,4 @@
-import './styles.scss';
+import './styles.css';
 import NavHeader from './navbar';
 
 function Colazione(){

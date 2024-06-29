@@ -7,7 +7,6 @@ import { HashRouter, Navigate, Route, Routes, useNavigate } from 'react-router-d
 import Colazione from './components/colazione'
 import Pranzo from './components/pranzo'
 import Cena from './components/cena'
-import NavHeader from './components/navbar'
 
 function App() {
   return (
