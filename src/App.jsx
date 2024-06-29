@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './components/home'
-import { Navigate, Route, Routes, useNavigate } from 'react-router-dom'
+import { HashRouter, Navigate, Route, Routes, useNavigate } from 'react-router-dom'
 import Colazione from './components/colazione'
 import Pranzo from './components/pranzo'
 import Cena from './components/cena'
@@ -13,11 +13,11 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="MyRestaurant/" element={<Home />} />
-        <Route path="/MyRestaurant/breakfast" element={<Colazione />} />
-        <Route path="/MyRestaurant/lunch" element={<Pranzo />} />
-        <Route path="/MyRestaurant/dinner" element={<Cena />} />
-      </Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/breakfast" element={<Colazione />} />
+          <Route path="/lunch" element={<Pranzo />} />
+          <Route path="/dinner" element={<Cena />} />
+        </Routes>
     </>
   )
 }
