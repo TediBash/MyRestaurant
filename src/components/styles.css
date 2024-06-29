@@ -3,7 +3,12 @@
 
 body {
   overflow-x: hidden;
-  background-color: #080d14 !important;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /*
   GLOBAL
@@ -17,6 +22,10 @@ button {
   cursor:pointer;
 }
 
+.h2_pad{
+  padding: 1rem;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -25,14 +34,16 @@ a {
   HEADER
 */
 section{
-/*    scroll-snap-align: center; */
+  height: 100vh;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
 }
 
 .nav-header{
     background: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
     padding: 2rem;
     width: 100%;
     color: white;
@@ -91,6 +102,7 @@ section{
   font-size:30px;
   display:flex;
   justify-content:center;
+  padding: 1rem;
 }
 
 .home-section .center #asterisk &:before {

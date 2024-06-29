@@ -1,12 +1,12 @@
-import './styles.css';
 import NavHeader from './navbar';
+import './styles.css';
 
 function Pranzo(){
     return(
-        <div>
+        <section>
             <NavHeader />
             Pranzo
-        </div>
+        </section>
     )
 }
 

@@ -6,12 +6,12 @@ function Home(){
     const navigate = useNavigate();
 
     return(
-        <div>
+        <div className='container'>
             <NavHeader />
-            <section className='home-buttons home-section'>
+            <div className='home-buttons home-section'>
                 <div className="center">
                     <h1 className="alex-brush">Welcome</h1>
-                    <h2>the rosa</h2>
+                    <h2 className='h2_pad'>the rosa</h2>
                     <span id="asterisk">*</span>
                     <p>ready to be opened</p>
                 </div>
@@ -19,7 +19,7 @@ function Home(){
                 <button onClick={() => navigate('/breakfast')}>Colazione</button>
                 <button onClick={() => navigate('/lunch')}>Pranzo</button>
                 <button onClick={() => navigate('/dinner')}>Cena</button>
-            </section>
+            </div>
         </div>
         
     )

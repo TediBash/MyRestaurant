@@ -10,6 +10,9 @@ a {
   color: inherit;
 }
 
+html{
+  background-color: #080d14 !important;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

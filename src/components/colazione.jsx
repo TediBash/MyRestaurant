@@ -1,12 +1,12 @@
-import './styles.css';
 import NavHeader from './navbar';
+import './styles.css';
 
 function Colazione(){
     return(
-        <div>
+        <section>
             <NavHeader />
             colazione
-        </div>
+        </section>
     )
 }
 

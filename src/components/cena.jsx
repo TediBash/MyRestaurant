@@ -1,12 +1,12 @@
-import './styles.css';
 import NavHeader from './navbar';
+import './styles.css';
 
 function Cena(){
     return(
-        <div>
+        <section>
             <NavHeader />
             Cena
-        </div>
+        </section>
     )
 }
 
