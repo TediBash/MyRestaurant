@@ -25,7 +25,7 @@ button {
 .h2_pad{
   padding: 1rem;
   margin-top:0;
-  background-image: url("LOGO.png");
+  background-image: url("./MyRestaurant/LOGO.png");
   background-size: cover;
   height: 80px;
 }
