@@ -25,9 +25,9 @@ button {
 .h2_pad{
   padding: 1rem;
   margin-top:0;
-  background-image: url("./LOGO.png");
+  background-image: url("../images/LOGO.png");
   background-size: cover;
-  height: 0px;
+  height: 80px;
 }
 
 a {
