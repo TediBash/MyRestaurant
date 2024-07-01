@@ -48,10 +48,14 @@ a {
 
 .colazioneContainer p span:first-child{
   width: 80%;
+  text-align: left;
+  padding: 5px;
 }
 
 .colazioneContainer p span:nth-child(2){
   width: 20%;
+  text-align: right;
+  padding: 5px;
 }
 
 /*
