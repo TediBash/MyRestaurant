@@ -34,6 +34,26 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.colazioneContainer p{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.colazioneContainer p span{
+  color: white;
+  font-family: "menuText";
+}
+
+.colazioneContainer p span:first-child{
+  width: 80%;
+}
+
+.colazioneContainer p span:nth-child(2){
+  width: 20%;
+}
+
 /*
   HEADER
 */
@@ -181,6 +201,11 @@ section{
       flex:1;
   }
   
+}
+
+@font-face {
+  font-family: "menuText";
+  src: url('../fonts/AcuminVariableConcept.otf');
 }
 
 /* ANIMATIONS */

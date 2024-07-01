@@ -11,7 +11,7 @@ a {
 }
 
 html{
-  background-color: #080d14 !important;
+  background-color: black !important;
   background-image: url("images/Background.jpg");
   max-width: 100%;
   background-size: cover;
@@ -19,7 +19,6 @@ html{
 }
 .logo {
   height: 6em;
-  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
