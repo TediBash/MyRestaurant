@@ -10,7 +10,7 @@ function Home(){
             <div className='home-buttons home-section'>
                 <div className="center">
                     <h1 className="alex-brush">Welcome</h1>
-                    <h2 className='h2_pad'>the rosa</h2>
+                    <h2 className='h2_pad'></h2>
                     <span id="asterisk">*</span>
                     <p>ready to be opened</p>
                 </div>

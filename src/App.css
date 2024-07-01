@@ -12,6 +12,10 @@ a {
 
 html{
   background-color: #080d14 !important;
+  background-image: url("Background RGB.jpg");
+  max-width: 100%;
+  background-size: cover;
+
 }
 .logo {
   height: 6em;

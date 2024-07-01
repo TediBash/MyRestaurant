@@ -14,7 +14,7 @@ body {
   GLOBAL
 */
 h2 {
-  margin-top:0;
+  
 }
 button {
   border:0;
@@ -24,6 +24,10 @@ button {
 
 .h2_pad{
   padding: 1rem;
+  margin-top:0;
+  background-image: url("LOGO.png");
+  background-size: cover;
+  height: 80px;
 }
 
 a {
@@ -128,7 +132,7 @@ section{
   margin: 2rem 0;
 }
 
-.home-section .center h2 {
+.home-section .center .h2_pad {
   text-transform:uppercase;
   letter-spacing:5px;
   font-size:28px;
@@ -189,20 +193,20 @@ section{
 
 #asterisk::before, #asterisk::after {
   transform-origin: center center;
-  animation: grow .5s forwards;
+  animation: grow .8s forwards;
   animation-delay: .8s;
 }
 .center p {
   transform: translateY(-40px);
   opacity: 0;
-  animation: fadeDown .9s forwards;
+  animation: fadeDown 1s forwards;
   animation-delay: 1.3s;
 }
 
-.center h2 {
+.center .h2_pad {
   transform: scale(2);
   opacity: 0;
-  animation: fade .5s forwards;
+  animation: fade 1s forwards;
 }
 .center h1 {
   transform: translateY(40px);
