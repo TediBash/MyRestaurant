@@ -5,7 +5,10 @@ function Cena(){
     return(
         <section>
             <NavHeader />
-            <embed className='pdf' src="./Menu-Master-Pranzo.pdf#toolbar=0" width="100%" height="100%" />
+            <img className='allergeni-img' src="https://i.imgur.com/aPTKNGG.png" />
+            <img className='allergeni-img' src="https://i.imgur.com/NrAe6zR.png" />
+            <img className='allergeni-img' src="https://i.imgur.com/VTjjYos.png" />
+            <img className='allergeni-img' src="https://i.imgur.com/WPEMPrP.png" />
         </section>
     )
 }

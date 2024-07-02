@@ -5,7 +5,10 @@ function Pranzo(){
     return(
         <section>
             <NavHeader />
-            Pranzo
+            <img className='allergeni-img' src='https://i.imgur.com/fO8JFtM.png' />
+            <img className='allergeni-img' src='https://i.imgur.com/WP9JtLn.png' />
+            <img className='allergeni-img' src='https://i.imgur.com/cWsnHwq.png' />
+
         </section>
     )
 }

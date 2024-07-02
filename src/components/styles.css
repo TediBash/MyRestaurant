@@ -25,6 +25,12 @@ button {
   cursor:pointer;
 }
 
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .pag1{
   background-image: url("../images/COL-PAG1.png");
 }

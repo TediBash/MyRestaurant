@@ -4,7 +4,7 @@ import './styles.css';
 function Allergeni(){
     return(
         <section>
-            <NavHeader />
+            <NavHeader from="allergeni"/>
             <img className='allergeni-img' src='https://i.imgur.com/omxgGvm.png' />
         </section>
     )
