@@ -5,8 +5,7 @@ function Cena(){
     return(
         <section>
             <NavHeader />
-            <div className='cenaContainer'>
-            </div>
+            <embed className='pdf' src="./Menu-Master-Pranzo.pdf#toolbar=0" width="100%" height="100%" />
         </section>
     )
 }

@@ -9,15 +9,12 @@ function Home(){
         <div className='container'>
             <div className='home-buttons home-section'>
                 <div className="center">
-                    <h1 className="alex-brush">Welcome</h1>
-                    <h2 className='h2_pad'></h2>
-                    <span id="asterisk">*</span>
-                    <p>ready to be opened</p>
+                    <h1 className='h2_pad'></h1>
+                    <p className='p_pad'>ready to be opened</p>
                 </div>
-                <span className='home-text'>Men&uacute;</span>
-                <button onClick={() => navigate('/breakfast')}>Colazione</button>
-                <button onClick={() => navigate('/lunch')}>Pranzo</button>
-                <button onClick={() => navigate('/dinner')}>Cena</button>
+                <button onClick={() => navigate('/breakfast')}><span className='home-text'>Men&uacute; Colazione</span></button>
+                <button onClick={() => navigate('/lunch')}><span className='home-text'>Men&uacute; Pranzo</span></button>
+                <button onClick={() => navigate('/dinner')}><span className='home-text'>Men&uacute; Serale</span></button>
             </div>
         </div>
         
