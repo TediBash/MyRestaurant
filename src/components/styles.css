@@ -18,9 +18,7 @@ body {
 /*
   GLOBAL
 */
-h2 {
-  
-}
+
 button {
   border:0;
   background:0;
@@ -32,7 +30,7 @@ button {
   margin-top:0;
   background-image: url("../images/LOGO.png");
   background-size: cover;
-  height: 85px;
+  height: 80px;
 }
 
 .p_pad{
@@ -107,7 +105,7 @@ section{
 }
 
 .home-buttons .home-text{
-  font-family: 'Alex Brush', cursive;
+  font-family: "menuText";
   font-size: 2.3rem;
   color: rgb(190, 128, 64);
 }
@@ -126,6 +124,12 @@ section{
   
 }
 
+.home-buttons button img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
 .home-section {
   min-height:100vh;
   background:linear-gradient(to bottom,rgba(rgb(0,0,0),.8),transparent);
@@ -137,6 +141,14 @@ section{
   line-height:0;
   text-align:center;
   color:white;
+}
+
+.home-section .center .top_logo{
+  height: 100px;
+}
+
+.home-section .center .down_logo{
+  height: 1.3rem;
 }
 
 .home-section .center #asterisk {
@@ -164,14 +176,13 @@ section{
   letter-spacing:3px;
 }
 
-.home-section .center h1 {
+.home-section .center div {
   font-family: 'Alex Brush', cursive !important;
   color: rgb(190, 128, 64);
-  font-size:80px;
   margin: 2rem 0;
 }
 
-.home-section .center .h2_pad {
+.home-section .center .top_logo {
   text-transform:uppercase;
   letter-spacing:5px;
   font-size:28px;
@@ -240,14 +251,14 @@ section{
   animation: grow .8s forwards;
   animation-delay: .8s;
 }
-.center p {
+.center .down_logo {
   transform: translateY(-40px);
   opacity: 0;
   animation: fadeDown 1s forwards;
   animation-delay: 1.3s;
 }
 
-.center .h2_pad {
+.center .top_logo {
   transform: scale(2);
   opacity: 0;
   animation: fade 1s forwards;

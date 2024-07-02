@@ -9,12 +9,12 @@ function Home(){
         <div className='container'>
             <div className='home-buttons home-section'>
                 <div className="center">
-                    <h1 className='h2_pad'></h1>
-                    <p className='p_pad'>ready to be opened</p>
+                    <img src='/MyRestaurant/src/images/LOGO.png' className='top_logo'/>
+                    <img src='/MyRestaurant/src/images/SLOGAN.png' className='down_logo'/>
                 </div>
-                <button onClick={() => navigate('/breakfast')}><span className='home-text'>Men&uacute; Colazione</span></button>
-                <button onClick={() => navigate('/lunch')}><span className='home-text'>Men&uacute; Pranzo</span></button>
-                <button onClick={() => navigate('/dinner')}><span className='home-text'>Men&uacute; Serale</span></button>
+                <button onClick={() => navigate('/breakfast')}><img src='/MyRestaurant/src/images/COL-TITLE.png'/></button>
+                <button onClick={() => navigate('/lunch')}><img src='/MyRestaurant/src/images/PRA-TITLE.png'/></button>
+                <button onClick={() => navigate('/dinner')}><img src='/MyRestaurant/src/images/SER-TITLE.png'/></button>
             </div>
         </div>
         
