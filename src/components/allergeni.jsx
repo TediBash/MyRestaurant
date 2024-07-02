@@ -5,7 +5,7 @@ function Allergeni(){
     return(
         <section>
             <NavHeader />
-            Allergeni
+            <img src='/MyRestaurant/assets/images/ALLERGENI.png' className='allergeni-img' />
         </section>
     )
 }
