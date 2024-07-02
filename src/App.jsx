@@ -8,6 +8,7 @@ import Colazione from './components/colazione'
 import Pranzo from './components/pranzo'
 import Cena from './components/cena'
 import NavHeader from './components/navbar'
+import Allergeni from './components/allergeni'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/breakfast" element={<Colazione />} />
           <Route path="/lunch" element={<Pranzo />} />
           <Route path="/dinner" element={<Cena />} />
+          <Route path="/allergeni" element={<Allergeni />} />
         </Routes>
     </>
   )

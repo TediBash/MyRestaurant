@@ -81,6 +81,11 @@ section{
   width: 100%;
 }
 
+.btn-home-container{
+  display: flex;
+  flex-direction: column;
+}
+
 .nav-header{
     background: transparent;
     padding: 2rem;
@@ -99,21 +104,25 @@ section{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 2rem;
+    /*gap: 2rem;*/
 }
 
-.home-buttons .home-text{
+.home-text{
   font-family: "menuText";
   font-size: 2.3rem;
-  color: rgb(190, 128, 64);
+  font-weight: lighter;
+  color: white;
 }
 
 .home-buttons button{
-  width: 250px;
-  height: 90px;
-  /*border-radius: 35px;
+ 
+  padding: 5px;
+  margin: 0;
+  /*height: 90px;
+   width: 250px;
+  border-radius: 35px;
   background-color: rgb(190, 128, 64);
   font-size: 1.2rem;
   font-weight: 900;*/
@@ -130,6 +139,27 @@ section{
 }
 
 
+.col-title{
+  background-image: url("../images/COL-TITLE.png");
+  background-size: cover;
+  min-width: 335px;
+  height: 65px;
+}
+
+.pra-title{
+  background-image: url("../images/PRA-TITLE.png");
+  background-size: cover;
+  min-width: 335px;
+  height: 65px;
+}
+
+.ser-title{
+  background-image: url("../images/SER-TITLE.png");
+  background-size: cover;
+  min-width: 335px;
+  height: 65px;
+}
+
 .home-section {
   min-height:100vh;
   background:linear-gradient(to bottom,rgba(rgb(0,0,0),.8),transparent);
@@ -141,14 +171,23 @@ section{
   line-height:0;
   text-align:center;
   color:white;
+  display: flex;
+  flex-direction: column;
 }
 
 .home-section .center .top_logo{
-  height: 100px;
+  height: 97px;
+  background-image: url("../images/LOGO.png");
+  background-size: cover;
+  min-width: 335px;
 }
 
 .home-section .center .down_logo{
   height: 1.3rem;
+  margin-left: 70px;
+  background-image: url("../images/SLOGAN.png");
+  background-size: cover;
+  min-width: 335px;
 }
 
 .home-section .center #asterisk {
@@ -179,7 +218,7 @@ section{
 .home-section .center div {
   font-family: 'Alex Brush', cursive !important;
   color: rgb(190, 128, 64);
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .home-section .center .top_logo {
