@@ -13,12 +13,12 @@ function Home(){
                     <div className='down_logo'></div>
                 </div>
                 <div className='btn-home-container'>
-                    <button onClick={() => navigate('/breakfast')}><span className='home-text'>Men&#249; Colazione</span></button>
-                    <button onClick={() => navigate('/lunch')}><span className='home-text'>Men&#249; Pranzo</span></button>
-                    <button onClick={() => navigate('/dinner')}><span className='home-text'>Men&#249; Serale</span></button>
+                    <button onClick={() => navigate('/breakfast')}><span className='home-text'>COLAZIONE</span></button>
+                    <button onClick={() => navigate('/lunch')}><span className='home-text'>PRANZO</span></button>
+                    <button onClick={() => navigate('/dinner')}><span className='home-text'>MEN&#217; SERALE</span></button>
                 </div>
                 <div className='allegeni'>
-                    <button onClick={() => navigate('/allergeni')}><span className='home-text'>Allergeni</span></button> 
+                    <button onClick={() => navigate('/allergeni')}><span className='home-text'>ALLERGENI</span></button> 
                 </div>
             </div>
         </div>

@@ -111,7 +111,7 @@ section{
 
 .home-text{
   font-family: "menuText";
-  font-size: 2.3rem;
+  font-size: 1.7rem;
   font-weight: lighter;
   color: white;
 }
@@ -179,12 +179,12 @@ section{
   height: 97px;
   background-image: url("../images/LOGO.png");
   background-size: cover;
-  min-width: 335px;
+  max-width: 350px;
 }
 
 .home-section .center .down_logo{
-  height: 1.3rem;
-  margin-left: 70px;
+  height: 20px;
+  margin-left: 35px;
   background-image: url("../images/SLOGAN.png");
   background-size: cover;
   min-width: 335px;
@@ -218,7 +218,7 @@ section{
 .home-section .center div {
   font-family: 'Alex Brush', cursive !important;
   color: rgb(190, 128, 64);
-  margin: 1rem 0;
+  margin: 0.3rem 0;
 }
 
 .home-section .center .top_logo {
