@@ -5,7 +5,8 @@ function Cena(){
     return(
         <section>
             <NavHeader />
-            Cena
+            <div className='cenaContainer'>
+            </div>
         </section>
     )
 }

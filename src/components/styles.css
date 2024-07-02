@@ -35,6 +35,10 @@ a {
   color: inherit;
 }
 
+.colazioneDivisore{
+  margin-top: 1rem;
+}
+
 .colazioneContainer p{
   display: flex;
   flex-direction: row;
