@@ -25,6 +25,14 @@ button {
   cursor:pointer;
 }
 
+.pag1{
+  background-image: url("../images/COL-PAG1.png");
+}
+
+.pag2{
+  background-image: url("../images/COL-PAG2.png");
+}
+
 .h2_pad{
   padding: 1rem;
   margin-top:0;
