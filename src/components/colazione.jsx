@@ -5,8 +5,8 @@ function Colazione(){
     return(
         <section>
             <NavHeader />
-            <div className='pag1'></div>
-            <div className='pag2'></div>
+            <img className='allergeni-img' src="https://i.imgur.com/aSzUFct.png" />
+            <img className='allergeni-img' src="https://i.imgur.com/rgmbDau.png" />
         </section>
     )
 }

@@ -5,7 +5,7 @@ function Allergeni(){
     return(
         <section>
             <NavHeader />
-            <img className='allergeni-img' src='https://tedibash.github.io/MyRestaurant/assets/ALLERGENI-CYuKoDs6.png' />
+            <img className='allergeni-img' src='https://i.imgur.com/omxgGvm.png' />
         </section>
     )
 }
