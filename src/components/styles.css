@@ -149,6 +149,7 @@ section{
 .allergeni-img{
   width: 100%;
   height: auto;
+  background-image: url('../images/ALLERGENI.png');
 }
 
 .col-title{
