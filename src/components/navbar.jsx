@@ -4,9 +4,9 @@ function NavHeader(props){
     return (
         <div className="nav-header">
             <div className='profile'>
-                <h2><Link to='/' className='logo'>Home</Link></h2>
+                <span><Link to='/' className='logo'>Home</Link></span>
                 {
-                    props.from !== 'allergeni' ? <h2><Link to='/allergeni' className='logo'>Allergeni</Link></h2> : ''
+                    props.from !== 'allergeni' ? <span><Link to='/allergeni' className='logo'>Allergeni</Link></span> : ''
                 }
             </div>
         </div>

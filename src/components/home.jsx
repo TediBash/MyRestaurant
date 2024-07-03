@@ -10,7 +10,7 @@ function Home(){
             <div className='home-buttons home-section'>
                 <div className="center">
                     <div className='top_logo'></div>
-                    <div className='down_logo'></div>
+                    <p className='down_logo'>Dall'alba al tramonto</p>
                 </div>
                 <div className='btn-home-container'>
                     <button onClick={() => navigate('/breakfast')}><span className='home-text'>COLAZIONE</span></button>
